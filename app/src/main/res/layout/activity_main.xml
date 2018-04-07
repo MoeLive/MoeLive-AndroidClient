@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/shape_background"
+    tools:context="com.ksyun.live.demo.com.moelive.live.demo.MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_background"
+        android:layout_alignParentBottom="true"
+        />
+
+    <Button
+        android:id="@+id/btn_stream"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_style"
+        android:layout_above="@+id/btn_player"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textColor="#FFFFFFFF"
+        android:text="主播入口" />
+
+    <Button
+        android:id="@+id/btn_player"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/button_style"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:textSize="20dp"
+        android:textColor="#FFFFFFFF"
+        android:text="观众入口" />
+
+</RelativeLayout>
